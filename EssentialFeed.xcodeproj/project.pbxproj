@@ -16,6 +16,7 @@
 		CC60B0DA2A8E3140009A65BA /* EssentialFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC60B0D92A8E3140009A65BA /* EssentialFeedTests.swift */; };
 		CC60B0E42A8E3140009A65BA /* EssentialFeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC60B0E32A8E3140009A65BA /* EssentialFeedUITests.swift */; };
 		CC60B0E62A8E3140009A65BA /* EssentialFeedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC60B0E52A8E3140009A65BA /* EssentialFeedUITestsLaunchTests.swift */; };
+		CC60B0F32A8E3E11009A65BA /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC60B0F22A8E3E11009A65BA /* FeedItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CC60B0DF2A8E3140009A65BA /* EssentialFeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialFeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC60B0E32A8E3140009A65BA /* EssentialFeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedUITests.swift; sourceTree = "<group>"; };
 		CC60B0E52A8E3140009A65BA /* EssentialFeedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialFeedUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CC60B0F22A8E3E11009A65BA /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				CC60B0CB2A8E3140009A65BA /* Assets.xcassets */,
 				CC60B0CD2A8E3140009A65BA /* LaunchScreen.storyboard */,
 				CC60B0D02A8E3140009A65BA /* Info.plist */,
+				CC60B0F22A8E3E11009A65BA /* FeedItem.swift */,
 			);
 			path = EssentialFeed;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC60B0F32A8E3E11009A65BA /* FeedItem.swift in Sources */,
 				CC60B0C72A8E313F009A65BA /* ViewController.swift in Sources */,
 				CC60B0C32A8E313F009A65BA /* AppDelegate.swift in Sources */,
 				CC60B0C52A8E313F009A65BA /* SceneDelegate.swift in Sources */,
